@@ -1,0 +1,6 @@
+//PURE REACT :
+
+- Component
+- props
+- State
+- Function vs Class component
