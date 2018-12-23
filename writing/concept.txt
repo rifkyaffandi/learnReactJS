@@ -23,7 +23,7 @@
     ESLint extension
     npm run lint -- --debug
 
-// 3.THE BUNDLER : PARCEL
+// 6bfb4d5 3.THE BUNDLER : PARCEL
 - npm install parcel-bundler
 - package.json
 - npm run dev
@@ -31,3 +31,9 @@
 - npm install react react-dom
 - file separation (from App.js to Pet.js)
 - import react and react-dom then (Pet) => export defaults
+
+// 4. JSX
+- Refactor the whole thing
+    Dealing with Mad ESLint
+- npm install -D babel-eslint eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react
+- Adittion to .eslintrc.json

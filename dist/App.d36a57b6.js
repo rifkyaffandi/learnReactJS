@@ -24495,7 +24495,7 @@ var _react = _interopRequireDefault(require("react"));
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var Pet = function Pet(props) {
-  return _react.default.createElement("div", {}, _react.default.createElement("h1", {}, props.name), _react.default.createElement("h2", {}, props.animal), _react.default.createElement("h2", {}, props.breed));
+  return _react.default.createElement("div", null, _react.default.createElement("h1", null, props.name), _react.default.createElement("h2", null, props.animal), _react.default.createElement("h2", null, props.breed));
 };
 
 var _default = Pet;
@@ -24548,7 +24548,7 @@ function (_React$Component) {
   _createClass(App, [{
     key: "render",
     value: function render() {
-      return _react.default.createElement("div", {}, _react.default.createElement("h1", {}, "Adopt Me !"), _react.default.createElement(_Pet.default, {
+      return _react.default.createElement("div", null, _react.default.createElement("h1", null, "Adopt Me !"), _react.default.createElement(_Pet.default, {
         name: "Luna",
         animal: "Dog",
         breed: "Havaneese"
