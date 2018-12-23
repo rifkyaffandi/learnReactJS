@@ -1,6 +1,23 @@
-//PURE REACT :
-
+//8c9e0ae 1. PURE REACT :
 - Component
 - props
 - State
 - Function vs Class component
+
+//2. REACT TOOLING :
+- npm : npm init
+- Prettier : 
+    file separation
+    npm install -D prettier
+    npx
+    .prettierrc
+    package.json
+    setting.json
+    prettier extension
+    npm run format && format:check
+- ESLint
+    npm install -D eslint
+    .eslintrc
+    package.json
+    ESLint extension
+    npm run lint
