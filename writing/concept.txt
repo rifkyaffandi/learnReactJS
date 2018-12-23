@@ -4,10 +4,10 @@
 - State
 - Function vs Class component
 
-//2. REACT TOOLING :
+//b1f5c98 2. REACT TOOLING :
 - npm : npm init
 - Prettier : 
-    file separation
+    file separation (from index.html to App.js)
     npm install -D prettier
     npx
     .prettierrc
@@ -16,8 +16,18 @@
     prettier extension
     npm run format && format:check
 - ESLint
-    npm install -D eslint
-    .eslintrc
+    npm install -D eslint eslint-config-prettier
+    npm install -D eslint-plugin-prettier
+    .eslintrc.json
     package.json
     ESLint extension
-    npm run lint
+    npm run lint -- --debug
+
+// 3.THE BUNDLER : PARCEL
+- npm install parcel-bundler
+- package.json
+- npm run dev
+
+- npm install react react-dom
+- file separation (from App.js to Pet.js)
+- import react and react-dom then (Pet) => export defaults
